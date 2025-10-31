@@ -2,7 +2,7 @@
 
 This repository contains my solution for the Amazon Machine Learning Hackathon 2025, where the goal was to build a Smart Product Pricing model that predicts the optimal price of e-commerce products using their textual and visual data.
 
-🚀 Overview
+Overview
 
 In e-commerce, determining the right price point is key to success. Our task was to predict product prices by analyzing descriptions, specifications, and other attributes.
 
@@ -14,11 +14,11 @@ image_link – URL of the product image
 
 price – target variable for training data
 
-🧩 Approach
+Approach
 
 Our solution focused on capturing textual insights and structured patterns in the data.
 
-🔹 Steps:
+Steps:
 
 Text Preprocessing
 
@@ -42,7 +42,7 @@ Evaluated the model using SMAPE (Symmetric Mean Absolute Percentage Error).
 
 Final SMAPE on leaderboard: 51.03
 
-⚙️ Files Included
+Files Included
 File	Description
 train_model.py	Script to train the model and save outputs
 test_model.py	Script to generate predictions for the test set
@@ -51,13 +51,13 @@ test.csv	Test dataset
 tfidf_union.pkl	Saved TF-IDF vectorizer
 lgb_price_model.txt	Trained LightGBM model
 test_out.csv	Final predictions
-📈 Results
+Results
 
 Rank: 1381 / 82,790+ participants
 
 Final SMAPE: 51.03
 
-🧠 Learnings
+Learnings
 
 This project helped explore:
 
@@ -67,11 +67,11 @@ Model optimization with LightGBM
 
 Handling large-scale e-commerce datasets efficiently
 
-👥 Team
+Team
 
 Team Oronyx
 
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
